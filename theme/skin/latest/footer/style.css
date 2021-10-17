@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+/* 새글 스킨 (latest) */
+.ft_info .logo_img{padding-bottom: 10px;}
+.ft_info .logo_img a img{max-height: 56px;}
+.ft_info .cnt_info{
+    flex-direction: column;
+    text-align: left;
+}

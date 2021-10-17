@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* by False9 */
+/* by hjy 수정 */
+
+/* 슬라이더 레이아웃 */
+
+.swiper_new{
+    max-width: 100%;
+    max-height: 650px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.swiper_new .swiper-wrapper{}
+.swiper_new .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/* 게시물 레이아웃 */
+.swiper_new .sw_tit {
+    font-size: 1.3rem;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    width: 100%;
+    padding: 10px 0;
+    background-color: #000;
+}
+.swiper_new .it_more{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem 0;
+    display: inline-block;
+}
+.swiper_new .it_more .it_more_btn{
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 36px;
+    padding: 5px 20px;
+    position: relative;
+}
+.it_more_btn:before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    top:0;
+    left: 0;
+    opacity: 1;
+    border-radius: 36px;
+    transition: all 0.5s;
+    z-index: -1;
+}
+.swiper_new .it_more .it_more_btn:hover{color: #000;}
+.it_more_btn:hover:before{
+    width: 0;
+    opacity: 0;
+}
+.swiper_new .sw_sub {color:#666; line-height: 22px; text-align: center;}
+.swiper_new .sw_img {
+    width:100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-top: 0px;
+}
+
+/* .swiper_new .swiper-button-next{
+    right: 0;
+    left: auto;
+    bottom: 0;
+} 
+.swiper_new .swiper-button-prev {
+    left: 0;
+    right: auto;
+    bottom: 0;
+} */
+
+
+@media all and (max-width:991px) {}

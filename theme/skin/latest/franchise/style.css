@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* 새글 스킨 (latest) */
+.photo_box{position: relative;}
+.photo_box .photo{
+    max-width: 350px;
+    max-height: 350px;
+    border: 0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.photo_box > div:first-child{}
+.photo_box > div:last-child{
+    position: absolute;
+    top:18%;
+    left: 42%;
+}
+.photo_box .photo img{height: 350px; width: 350px; object-fit: cover; object-position: left;}
+
+.photo_box .photo_empty{padding:10px 0;}
+.photo_box .photo_empty:before {background:none;padding:0}
+.photo_box .photo_empty a img{max-height: 80px;}

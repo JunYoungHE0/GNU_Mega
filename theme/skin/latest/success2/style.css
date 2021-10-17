@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+/* by hjy */
+.success2 .con_img{float: right;}
+.success2 .con_img img{width: 350px; height: 350px; object-fit: cover;}
+.success2 .con_text{float:right; margin-right: 2.5rem;}
+.success2 .text_dl dt{font-size: 2.2rem; font-weight: 700; margin-top: 2rem;}
+.success2 .text_dl dd{font-size: 1.5rem; line-height: 2.4rem; margin-top: 1.5rem;}
+.success2 .con_sub{width: 100%; height: 300px; text-align: center;}

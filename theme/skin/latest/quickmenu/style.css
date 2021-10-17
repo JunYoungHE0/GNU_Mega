@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* quick스킨 허준영 제작 */
+
+.sns_lt ul {}
+.sns_lt li {text-align: center;}
+.sns_lt li .lt_img img, .sns_lt li .lt_img video{max-width:50px; max-height: 50px;}
+
+.sns_lt .empty_li {line-height:50px;color:#666;}
